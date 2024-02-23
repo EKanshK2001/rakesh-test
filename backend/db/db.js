@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 // console.log(process.env.MONGO_URI);
 
 mongoose
-  .connect('mongodb://localhost:27017/rakesh_test_app')
+  .connect('mongodb+srv://ekanshadmin:Yio947clsEJcHAqc@cluster0.qjptc24.mongodb.net/rakesh_test_app')
   .then(() => {
     console.log("MongoDB is connected");
   })
